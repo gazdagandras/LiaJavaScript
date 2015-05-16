@@ -1,13 +1,8 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>JavaScript példa</title>
         <style>
             #doboz {
                 border: 2px solid red;
@@ -18,6 +13,8 @@ and open the template in the editor.
         </style>
     </head>
     <body>
+        
+        <h1>JavaScript példa</h1>
         
         <script>
         document.write('Hello JavaScript!');
