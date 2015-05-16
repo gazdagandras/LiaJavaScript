@@ -14,5 +14,21 @@ $(document).ready(function(){
    $('#showBox').click(function() {
        $('#box').show(1000);
    });
+   
+   // Fejezetek:
+   $('.fejezetszoveg').hide();
+   
+   $('.fejezetcim').click(function() {
+      console.log('Fejezetcímre kattintottak!');
+      $(this).next('.fejezetszoveg').toggle(1000);
+   });
+   
+   // Összeadás:
+   $('#osszead').click(function() {
+       var a = parseInt($('#a').val());
+       var b = parseInt($('#b').val());
+       
+       $('#eredmeny').val(a + b);
+   });
            
 }); 
