@@ -6,10 +6,13 @@ $(document).ready(function(){
        console.log('Elrejtés gombra kattintottak!');
        
        // jQuery:
-       $('#box').hide();
+       $('#box').hide(1000);
        // JavaScript:
-       //document.getElementById("box").style.display="none";
-       
+       //document.getElementById("box").style.display="none"; 
    });
-
+   
+   $('#showBox').click(function() {
+       $('#box').show(1000);
+   });
+           
 }); 
