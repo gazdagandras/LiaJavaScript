@@ -5,8 +5,8 @@
         <title>jQuery példa</title>
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="script.js"></script>
 
-        
         <style type="text/css">
             #box {
                 border: 2px solid red;
@@ -16,16 +16,16 @@
                 text-align: center;
             }
         </style>
-        
+
     </head>
     <body>
-        
+
         <h1>jQuery példa</h1>
 
         <button id="showBox">Mutat</button>
         <button id="hideBox">Elrejt</button>
-        
+
         <div id="box">Doboz!</div>
-        
+
     </body>
 </html>
